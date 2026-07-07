@@ -138,7 +138,7 @@ Also, the analysis showed that while the company is doing well in some areas, em
 	•	Microsoft Excel
 	•	Pivot Tables
 	•	Pivot Charts
-	•	Dashboard Design
+	•	Dashboard Design ![HR Dashboard.png](HR Dashboard.png)
 
 
  Final Note
