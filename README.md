@@ -140,7 +140,7 @@ Also, the analysis showed that while the company is doing well in some areas, em
 	•	Pivot Charts
 	
 	###	Dashboard Design 
-	![HR Dashboard.png](HR_Dashboard.png)
+	![Dashboard](HR_Dashboard.png)
 	
 
   ## Lastly
