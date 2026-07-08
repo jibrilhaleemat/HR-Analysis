@@ -135,12 +135,14 @@ Also, the analysis showed that while the company is doing well in some areas, em
 
 
 ## Tools Used
-	•	Microsoft Excel![HR Analysis.png](HR_Analysis.png)
+	•	Microsoft Excel<img width="1366" height="768" alt="HR_ Analysis" src="https://github.com/user-attachments/assets/b3aab2aa-46bf-4b2f-9351-717f7f92e7cd" /><img width="1366" height="768" alt="HR_ Analysis" src="https://github.com/user-attachments/assets/1b60a1cf-f3a3-4b83-8038-f141786632ca" />
+
 	•	Pivot Tables
 	•	Pivot Charts
 	
 	###	Dashboard Design 
-	![Dashboard](HR_Dashboard.png)
+	<img width="1366" height="768" alt="HR_Dashboard" src="https://github.com/user-attachments/assets/0792dd78-dda8-42b4-9167-f2d657b09858" />
+
 	
 
   ## Lastly
