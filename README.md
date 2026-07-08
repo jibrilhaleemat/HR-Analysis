@@ -10,27 +10,27 @@ The goal was to clean the data properly, analyze it, and create insights that ca
 
 ## Initial Observation
 
-When I first opened the dataset, it looked quite organized, but I didn’t assume it was clean. From what I’ve learned, most datasets usually have small issues that can affect analysis if not handled properly.
+When I first opened the dataset, it looked quite organized and well arranged, but I didn’t assume it was clean. From what I’ve learned, most datasets usually have small hidden issues that can affect analysis if not handled properly.
 
-After looking through it, I started to notice some inconsistencie
+After looking through it, I started to notice some inconsistencies like;
 
 ## Issues I Found
 	
-  .	Some columns had blank or missing values
-	•	There were inconsistent formats, especially in date-related columns
-	•	Some text fields had extra spaces
-	•	I also considered the possibility of duplicate records
+  .	Some columns had blank / missing values,
+	•	There were inconsistent formats, especially in date-related columns and also in salary too,
+	•	Some text fields had extra spaces,
+	•	I also considered the possibility of duplicate records.
 
 ## What I Did to Clean the Data
 
 ## 1. Handling Missing Values
 
 I used filters to check for blank cells in important columns.
-	•	Where it made sense, I filled in missing values
+	•	I filled in missing values,using fill up,
 	•	In some cases, I use the average of the column to fill in the blanks,especially for numerical data.i chose this method because it helps maintain balance in the dataset without removing useful information. 
   
 
-## 2. Fixing Data Format
+## 2. Fixing Inconsistencies column
 
 I noticed some columns were not properly formatted.
 	•	I standardized the format to make the data consistent
@@ -50,19 +50,19 @@ I checked if any records were repeated.
 
 ## 5. Validating Important Columns
 
-I paid attention to key columns like:
-	•	Department
-	•	Salary
-	•	Attrition
+I added new column to the dataset like:
+	•	Department Name
+	•	performance Band
+	•	Attrition Rate
 
 I made sure values were consistent and correctly labeled.
 
 ## Steps I Followed
-	.	Checked for missing values
-	.	Fixed formatting issues
-	.	Cleaned text fields
-	.	Removed duplicates
-	.	Validated important columns
+	• Checked for missing vaues 
+    • I fixed fomarting issues
+	• I cleaned text field
+	• I added some new columns 
+	• I removed duplicates
 
 ## Assumptions I Made
 	-	Blank values were treated as fill up, not zero
