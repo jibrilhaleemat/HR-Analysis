@@ -135,7 +135,7 @@ Also, the analysis showed that while the company is doing well in some areas, em
 
 
 ## Tools Used
-	•	Microsoft Excel![HR_Analysis.png](HR_Analysis.png)
+	•	Microsoft Excel![HR Analysis.png](HR_Analysis.png)
 	•	Pivot Tables
 	•	Pivot Charts
 	
