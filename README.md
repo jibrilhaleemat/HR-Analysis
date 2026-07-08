@@ -16,9 +16,9 @@ After looking through it, I started to notice some inconsistencies like;
 
 ## Issues I Found
 	
-  .	Some columns had blank / missing values,
-	•	There were inconsistent formats, especially in date-related columns and also in salary too,
-	•	Some text fields had extra spaces,
+  .	Some columns had blank / missing values
+	•	There were inconsistent formats, especially in date-related columns and also in salary too
+	•	Some text fields had extra spaces
 	•	I also considered the possibility of duplicate records.
 
 ## What I Did to Clean the Data
@@ -26,7 +26,7 @@ After looking through it, I started to notice some inconsistencies like;
 ## 1. Handling Missing Values
 
 I used filters to check for blank cells in important columns.
-	•	I filled in missing values,using fill up,
+	•	I filled in missing values,using fill up.
 	•	In some cases, I use the average of the column to fill in the blanks,especially for numerical data.i chose this method because it helps maintain balance in the dataset without removing useful information. 
   
 
@@ -54,6 +54,8 @@ I added new column to the dataset like:
 	•	Department Name
 	•	performance Band
 	•	Attrition Rate
+	.   Year of service
+	.   Bonus Percentage
 
 I made sure values were consistent and correctly labeled.
 
@@ -71,17 +73,15 @@ I made sure values were consistent and correctly labeled.
 
 ## Challenges I Faced
 
-At some point, some formatting changes didn’t apply immediately, which confused me a bit.
+I faced some challenges with formatting, as some changes didn’t apply immediately. Handling missing values also required careful thinking, and I decided to fill some using the average for numerical columns.
 
-Also, deciding how to handle missing values required some thinking because I didn’t want to affect the accuracy of the data.
-
-To solve this, I kept rechecking the data using filters and sorting until I was confident.
+While building the dashboard, I struggled a bit with choosing the right color combination and also had an issue where a slicer was not responding to one of my KPIs. I had to redo parts of the dashboard before it worked properly.
 
 ## Final Outcome of Cleaning
 
 After cleaning, the dataset became more consistent and reliable, which made it easier to create pivot tables and dashboards without errors.
 
-📊 Data Analysis & Insights
+## Data Analysis & Insights
 
 ## 1. Employee Distribution
 
@@ -135,12 +135,14 @@ Also, the analysis showed that while the company is doing well in some areas, em
 
 
 ## Tools Used
-	•	Microsoft Excel
+	•	Microsoft Excel![HR_Analysis.png](HR_Analysis.png)
 	•	Pivot Tables
 	•	Pivot Charts
-	•	Dashboard Design ![HR Dashboard.png](HR Dashboard.png)
+	
+	###	Dashboard Design 
+	![HR Dashboard.png](HR_Dashboard.png)
+	
 
-
- Final Note
+  ## Lastly
 
 This project helped me understand how data can reveal important insights that are not obvious at first glance. It also improved my confidence in using Excel for real analysis.
